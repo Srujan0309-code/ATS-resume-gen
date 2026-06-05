@@ -1,0 +1,19 @@
+button {
+    padding: 10px 20px;
+    background-color: #c82121;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ea2a2a;
+    }
+    transition: background-color 0.3s ease;
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
